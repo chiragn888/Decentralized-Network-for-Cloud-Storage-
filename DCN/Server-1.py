@@ -255,29 +255,6 @@ def _join():
     tot+=end_time - start_time
     print("|--",end_time - start_time, "seconds")
 
-   
-        
-
-    """os.chdir('/Users/chirag/Desktop/key/')     
-    with open('mykey.key', 'rb') as mykey:
-        key = mykey.read()
-
-    
-    os.chdir('/Users/chirag/Desktop/dwn/')
-    f= Fernet(key)
-    with open(oooo, 'rb') as encrypted_file:
-        encrypted = encrypted_file.read()
-
-    decrypted = f.decrypt(encrypted)
-
-    with open(oooo, 'wb') as decrypted_file:
-        decrypted_file.write(decrypted)                                    
-                
-    for fillls in fil:
-                if(fillls!=oooo):
-                    os.remove(""+fillls+"")    """            
-    
-
 def decry():
     tot=0
     start_time = time.perf_counter ()
