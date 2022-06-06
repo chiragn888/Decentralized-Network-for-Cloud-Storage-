@@ -1,0 +1,2 @@
+# Decentralized-Network-for-Cloud-Storage-
+A decentralized Cloud Network is a model that has all features of the Cloud, it provides  Dual Layer of Security and due to distributed file storage, it becomes nearly impossible to hack into the data. The data is divided into multiple slices, the slices are individually encrypted and then sent to the service decentralised cloud. Each encrypted part is stored on a random server, this provides high security. To decrypt the data, the user has to provide the private key which was generated at client-side encryption.
