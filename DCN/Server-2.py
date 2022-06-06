@@ -126,14 +126,7 @@ def _fetch():
         count+=1
         tip = ""+str(count)+""+aka+".chk"
         start_time = time.perf_counter ()
-        firebaseConfig={        "apiKey": "AIzaSyA4l7jR637C_XqKLdqArSml5rZoOmeESGQ",
-                                "authDomain": "ipvp1-fb181.firebaseapp.com",
-                                 "projectId": "ipvp1-fb181",
-                                 "databaseURL": "https://ipvp1-fb181-default-rtdb.firebaseio.com",
-                                 "storageBucket": "ipvp1-fb181.appspot.com",
-                                 "messagingSenderId": "45642948100",
-                                 "appId": "1:45642948100:web:26231027627a4470831f51",
-                                 "measurementId": "G-F9YLNP829J"}
+        firebaseConfig={   add firebase configration for your server    }
 
         firebase=pyrebase.initialize_app(firebaseConfig)
         storage=firebase.storage()
