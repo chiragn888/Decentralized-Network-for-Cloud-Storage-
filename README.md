@@ -8,6 +8,13 @@ The encrypted file is then sliced by Client Engine, nominal slice size is 15% of
 
 # graphs
 
-<img width="350" alt="Screenshot 2022-05-24 at 8 51 10 PM" src="https://user-images.githubusercontent.com/65002995/172286140-b99f6850-8760-40aa-8435-8e5acadeea15.png">
+<img width="400" alt="Screenshot 2022-05-24 at 8 51 10 PM" src="https://user-images.githubusercontent.com/65002995/172286140-b99f6850-8760-40aa-8435-8e5acadeea15.png">
 
 
+<img width="400" alt="Screenshot 2022-05-24 at 8 45 12 PM" src="https://user-images.githubusercontent.com/65002995/172286256-545d408c-746a-4b50-83e8-470dd84b2d5c.png">
+
+
+<img width="400" alt="Screenshot 2022-05-24 at 8 39 33 PM" src="https://user-images.githubusercontent.com/65002995/172286266-57bd4fc4-5ae7-4894-8ff4-3dd9d57ba15d.png">
+
+
+<img width="400" alt="Screenshot 2022-05-24 at 7 25 29 PM" src="https://user-images.githubusercontent.com/65002995/172286300-f6dfb6fb-b1dc-4ac6-be7a-b7e155327a88.png">
