@@ -8,10 +8,21 @@ The encrypted file is then sliced by Client Engine, nominal slice size is 15% of
 
 # graphs
 
-<img style="float:left" width="350" alt="Screenshot 2022-05-24 at 8 51 10 PM" src="https://user-images.githubusercontent.com/65002995/172286140-b99f6850-8760-40aa-8435-8e5acadeea15.png">
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img width="350" alt="Screenshot 2022-05-24 at 8 51 10 PM" src="https://user-images.githubusercontent.com/65002995/172286140-b99f6850-8760-40aa-8435-8e5acadeea15.png"></td>
+    <td><img  width="350" alt="Screenshot 2022-05-24 at 8 45 12 PM" src="https://user-images.githubusercontent.com/65002995/172286256-545d408c-746a-4b50-83e8-470dd84b2d5c.png"></td>
+  </tr>
+ </table>
 
 
-<img style="float:right" width="350" alt="Screenshot 2022-05-24 at 8 45 12 PM" src="https://user-images.githubusercontent.com/65002995/172286256-545d408c-746a-4b50-83e8-470dd84b2d5c.png">
+
+
 
 
 <img width="400" alt="Screenshot 2022-05-24 at 8 39 33 PM" src="https://user-images.githubusercontent.com/65002995/172286266-57bd4fc4-5ae7-4894-8ff4-3dd9d57ba15d.png">
