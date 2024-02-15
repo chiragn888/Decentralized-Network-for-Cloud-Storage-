@@ -23,6 +23,26 @@ The encrypted file is then sliced by Client Engine, nominal slice size is 15% of
   </tr>
 </table>
 
+## Setting up and running the FastAPI server
+
+To start using the FastAPI server, you need first to install the necessary dependencies.
+
+1. Install the dependencies from `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the FastAPI server with uvicorn:
+
+```bash
+uvicorn api.main:app --reload
+```
+
+This will start the server, which allows you to interact with the provided API endpoints.
+
+</section>
+
 
 
 
