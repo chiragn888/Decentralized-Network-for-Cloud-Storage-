@@ -26,4 +26,19 @@ The encrypted file is then sliced by Client Engine, nominal slice size is 15% of
 
 
 
+# Setting up the FastAPI application
+
+To set up and run the FastAPI application, follow these steps:
+
+1. Ensure you have Python 3.6 or newer installed.
+2. Install the required dependencies by running `pip install -r api/requirements.txt`.
+3. Run the application using Uvicorn with the command: `uvicorn api.main:app --reload`.
+
+You can access the API endpoints at:
+- `/readme` for the README.md content.
+- `/license` for the LICENSE content.
+
+
+
+
 
