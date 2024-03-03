@@ -5,13 +5,14 @@ from sys import argv
 from pathlib import Path
 import os
 from datetime import datetime
-from turtle import clear
 import urllib
 import time
 from cryptography.fernet import Fernet
 import pyrebase
 import shutil
+from fastapi import FastAPI
 
+app = FastAPI()
 
 fil = os.listdir('/Users/chirag/Desktop/re/')
 for filr in fil:
@@ -21,7 +22,6 @@ for filr in fil:
 read_buffer_size = 1024
 chunk_size = (15/100)*filz
 print(chunk_size)
-
 
 def _chunk_file(file,ofile,extension):
         oooo=os.path.basename(ofile)
@@ -54,11 +54,7 @@ def _chunk_file(file,ofile,extension):
             if(field[filw]!=".DS_Store" and  field[filw]!="encrypted"+extension):
               os.remove(field[filw])
             
-
         _post(oooo,extension)                      
-
-
-
 
 def _split():
     p = Path.cwd()
@@ -73,8 +69,6 @@ def _split():
         with open(file_to_split, 'rb') as file: 
             _chunk_file(file,file_to_split,aexe)
 
-
-
 def _post(file,exe):
         tot=0
         fil1 = os.listdir('/Users/chirag/Desktop/re/')
@@ -85,7 +79,7 @@ def _post(file,exe):
 
             start_time = time.perf_counter ()
           
-             firebaseConfig={   add firebase configration for your server    }
+            firebaseConfig={   add firebase configration for your server    }
            
             firebase=pyrebase.initialize_app(firebaseConfig)
             storage=firebase.storage()
@@ -102,9 +96,6 @@ def _post(file,exe):
                 
                 if(fillls!=".DS_Store" and fillls!="encrypted"+exe):
                     os.remove(""+fillls+"")            
-
-
-
 
 def _fetch():
     tot=0
@@ -130,9 +121,6 @@ def _fetch():
         print(""+str(count)+""+aka+".chk |--",end_time - start_time, "seconds")
             
     print("TOTAL RUNTIME|--",tot,"seconds")   
-
-        
-
 
 def _join():
     fil = os.listdir('/Users/chirag/Desktop/re/')
@@ -160,7 +148,6 @@ def _join():
                 if(fillls!="join.png"):
                     os.remove(""+fillls+"")                   
 
-
 def main():
 
     command = argv[1]
@@ -178,4 +165,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
